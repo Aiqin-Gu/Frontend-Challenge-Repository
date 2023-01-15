@@ -3,12 +3,15 @@ body{
     background-color: antiquewhite;
 }
 .img-text{
-    margin:400px 600px;
+    transform: scale(0.5);
+
+
 }
 img{
     float:left;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+
 }
 .attribution{
     clear: left;
