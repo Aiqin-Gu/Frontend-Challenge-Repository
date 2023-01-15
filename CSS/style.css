@@ -2,22 +2,34 @@
 body{
     background-color: antiquewhite;
 }
+.img-text{
+    margin:400px 600px;
+}
 img{
     float:left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .attribution{
     clear: left;
 }
 .description-text{
     font-family: 'Montserrat', sans-serif;
-    position:absolute;
-    left:750px;
     width:600px;
     height:900px;
-    padding-top: 10px;
+    background-color: white;
+    display: inline-block;
+    margin:0 auto;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.text-cart{
+    padding-left: 50px;
+    padding-right:50px;
+    margin-top: 50px;
 }
 .perfume-name{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight:700;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -25,18 +37,19 @@ img{
 .main-text{
     line-height: 40px;
     letter-spacing: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
 }
 .new-price{
-    font-size:4rem;
+    font-size:3rem;
     color:hsl(158, 36%, 37%);
     display:inline-block;
-    margin:50px auto 50px;
+    margin:40px auto 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .old-price{
     display:inline-block;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 10px;
     font-size:2rem;
     text-align: center;
@@ -55,6 +68,11 @@ img{
     padding: 14px 22px 15px 28px;
     text-decoration: none;
     border:none;
+    width: 500px;
+    height:70px;
+    font-weight: 600;
+    margin-top: 20px;
+    
   }
   
   .btn:hover {

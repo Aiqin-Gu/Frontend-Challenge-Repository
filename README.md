@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://aiqin-gu.github.io/Frontend-Challenge-Repository/)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
    1. Build basic structure in html
